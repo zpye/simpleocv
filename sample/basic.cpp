@@ -6,9 +6,9 @@
 static const std::string image_path(IMAGE_PATH);
 
 static void SaveImage(const std::string& name, cv::Mat& image) {
-    std::string image_file(image_path);
-    image_file.append("/").append(name);
-    cv::imwrite(image_file, image);
+    // std::string image_file(image_path);
+    // image_file.append("/").append(name);
+    cv::imwrite(name, image);
 }
 
 int main() {
