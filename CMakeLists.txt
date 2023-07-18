@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 project(simpleocv)
 
-option(BUILD_SIMPLEOCV_SAMPLE "build simpleocv sample" ON)
+option(BUILD_SIMPLEOCV_SAMPLE "build simpleocv sample" OFF)
 
 set(SIMPLEOCV_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 
